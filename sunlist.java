@@ -125,7 +125,7 @@ public class sunlist  implements Queue{
 			
 			public static void main(String args[]) {
 				int queueSize = 5;
-				sunlist arrQueue = new arrQueue(queueSize);
+				sunlist arrQueue = new sunlist(queueSize);
 				
 				arrQueue.enqueue('A');
 				arrQueue.printQueue();

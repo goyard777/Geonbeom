@@ -1,4 +1,4 @@
-
+    //깃 저장 용 글
 
 class ListNode{
     private String data;    // 데이터 저장 변수
@@ -8,7 +8,7 @@ class ListNode{
         this.data = null;
         this.link = null;
     }
-    
+
     
     public ListNode(String data) {
         this.data = data;
