@@ -43,7 +43,7 @@ public class circlelist  implements Queue{
 				
 			return (((rear+1)%this.queuesize==front));
 			}
-			// 큐가 가득 차있는지 확인.
+			// 큐가 가득 차있는지 확인. +1 를 더하고 큐 크기로 나눌시  프론트값 즉 0 과 같아야한다 . 이는 원형리스트 초기값 조건 front =rear =full
 			
 			@Override
 			public char dequeue() {
