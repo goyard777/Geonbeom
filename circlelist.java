@@ -1,5 +1,4 @@
 
-
 interface Queue{
 	boolean isEmpty();
 	boolean isfull();
@@ -120,7 +119,7 @@ public class circlelist  implements Queue{
 			
 			
 			public static void main(String args[]) {
-				int queueSize = 5;
+				int queueSize = 4;
 				circlelist arrQueue = new circlelist(queueSize);
 				
 				arrQueue.enqueue('A');
