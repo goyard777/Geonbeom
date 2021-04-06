@@ -1,5 +1,5 @@
 class picachu {
-   
+//    다음에 계속
 
     public void setOprands() {
       System.out.println("자 이제시작이야 내꿈을");
